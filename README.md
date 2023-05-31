@@ -70,9 +70,9 @@ Per completare la creazione ora del sistema spostiamoci su Autoscaling group e c
 * Subent : quelle selezionate in precedenza qualora lo chiedesse
 * Abilitare "Enable group metrics collection with CloudWatch"
 * Per Group size utilizzare :
-  * Desired Capacity: 2 
-  * Minimum Capacity: 2 
-  * Maximum Capacity: 6 
+  * Desired Capacity : 2 
+  * Minimum Capacity : 2 
+  * Maximum Capacity : 6 
   
 Come policy di scaling selezionare Target tracking scaling policy con i seguenti valori: 
 * Scaling Policy Name: Target Tracking Policy 
