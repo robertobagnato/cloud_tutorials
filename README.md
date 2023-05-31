@@ -75,9 +75,9 @@ Per completare la creazione ora del sistema spostiamoci su Autoscaling group e c
   
 Come policy di scaling selezionare Target tracking scaling policy con i seguenti valori: 
 * Scaling Policy Name: Target Tracking Policy 
-* Metric type: Average CPU utilization 
-* Target value: 30 
-* Instances need: 300 
+* Metric type : Average CPU utilization 
+* Target value : 30 
+* Instances need : 300 
 Clicchiamo avanti e poi Crea Autoscaling group. 
 
 A questo punto dovremmo visualizzare le nostre istanze sulla dashboard e andando sul nome DNS del bilanciatore in una nuova pagina web dovremmo vedere il nostro sito web (potrebbe volerci qualche minuto).
