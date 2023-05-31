@@ -60,6 +60,7 @@ Possiamo ora creare finalmente il nostro Loadb balancer, spostandoci sempre sull
 * Load balancer protocol : HTTP
 * Port : 80
 * Target group : __ALBTG__
+
 Clicchiamo su avanti e confermiamo la creazione. Attendiamo ora qualche minuto e non appena completato prendiamo nota del nome DNS associato al nostro Load Balancer. 
 
 Per completare la creazione ora del sistema spostiamoci su Autoscaling group e creiamone uno nuovo:
