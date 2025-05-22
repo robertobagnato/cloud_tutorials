@@ -40,7 +40,7 @@ yum update -y
 yum install -y httpd
 yum install -y wget
 cd /var/www/html
-wget https://raw.githubusercontent.com/fenderbob/cloud_tutorials/main/index.html
+wget https://raw.githubusercontent.com/robertobagnato/cloud_tutorials/main/2024/index.html
 service httpd start
 ```
 
