@@ -1,0 +1,2 @@
+This file is on the host machine.
+The container can see it because the folder is mounted as a volume.
